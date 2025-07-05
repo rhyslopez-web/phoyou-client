@@ -15,7 +15,7 @@ const Header = () => {
     };
 
   return (
-    <nav>
+    <nav className='sticky top-0 right-0 z-10'>
         <div className='grid grid-cols-2 md:grid-cols-3 lg:px-10 px-3 py-5 relative'>
             <a>Logo</a>
 
@@ -27,9 +27,9 @@ const Header = () => {
             </ul>
 
             <div className='md:flex hidden justify-end '>
-                <button className='bg-primary text-text px-5 py-2 rounded-full'>
+                <a href='/' className='bg-primary text-text px-5 py-2 rounded-full hover:bg-orange-500 transition duration-200'>
                     Order Now
-                </button>
+                </a>
             </div>
 
             <div className='flex justify-end md:hidden' onClick={handeIsOpen}>
