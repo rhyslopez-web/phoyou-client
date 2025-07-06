@@ -1,10 +1,18 @@
-import React from 'react'
+'use client'
 
-const SecondaryHeading = ({children, className} : {children: string, className?: string}) => {
+import React, { ReactNode } from 'react'
+import { motion, AnimatePresence, easeIn } from "motion/react"
+
+const SecondaryHeading = ({children, className} : {children: ReactNode, className?: string}) => {
   return (
-    <h2 className={className + ' text-3xl lg:text-4xl font-bold'}>
+    <motion.h2 
+    initial={{opacity: 0}}
+    whileInView={{opacity:100}}
+    transition={{duration: 0.7}}
+    className={className + ' text-3xl lg:text-6xl font-bold'}
+    >
         {children}
-    </h2>
+    </motion.h2>
   )
 }
 
