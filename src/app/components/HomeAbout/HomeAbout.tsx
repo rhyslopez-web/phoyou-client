@@ -29,19 +29,19 @@ const HomeAbout = () => {
                     </div>
 
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-5 lg:col-span-2'>
-                        <BentoCard>
+                        <BentoCard title='Wholesome & Oil-Free'>
                             Our dishes are crafted without oil, letting fresh herbs, spices, and natural flavors shine through — clean eating at its best.
                         </BentoCard>
                     
-                        <BentoCard>
+                        <BentoCard title='Seafood & Veggie-Focused'>
                             We celebrate the best of land and sea with vibrant vegetarian dishes and responsibly sourced seafood inspired by Vietnamese and Thai traditions.
                         </BentoCard>
                         
-                        <BentoCard>
+                        <BentoCard title='Health-Conscious Choices'>
                             From light broths to steamed plates, everything on our menu is made to nourish your body while satisfying your cravings.
                         </BentoCard>
 
-                        <BentoCard>
+                        <BentoCard title='Deliciously Affordable'>
                             Great food doesn’t have to break the bank — enjoy bold flavors, big portions, and friendly prices that keep you coming back.
                         </BentoCard>
                     </div>
