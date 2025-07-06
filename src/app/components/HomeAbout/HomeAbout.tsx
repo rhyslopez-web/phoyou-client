@@ -8,7 +8,7 @@ const HomeAbout = () => {
   return (
     <section className='py-20 lg:py-40 px-3 bg-primary'>
         <div className='max-w-[1400px] mx-auto'>
-            <div className='grid grid-cols-1 gap-10'>
+            <div className='grid grid-cols-1 gap-20'>
                 <div className='grid grid-cols-1 md:grid-cols-2 w-full gap-5'>                    
                     <SecondaryHeading>
                         Rooted in Culture <span className='text-stroke'>Crafted</span> with <span className='text-stroke'>Care</span>

@@ -15,7 +15,7 @@ const Header = () => {
     };
 
   return (
-    <nav className='sticky top-0 right-0 z-10 bg-background invert'>
+    <nav className='sticky top-0 right-0 z-10 bg-background backdrop-invert backdrop-saturate-150'>
         <div className='grid grid-cols-2 md:grid-cols-3 lg:px-10 px-3 py-5 relative'>
             <a>Logo</a>
 

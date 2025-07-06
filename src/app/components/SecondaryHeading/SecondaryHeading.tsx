@@ -9,7 +9,7 @@ const SecondaryHeading = ({children, className} : {children: ReactNode, classNam
     initial={{opacity: 0}}
     whileInView={{opacity:100}}
     transition={{duration: 0.7}}
-    className={className + ' text-3xl lg:text-6xl font-bold'}
+    className={className + ' text-5xl lg:text-6xl font-bold'}
     >
         {children}
     </motion.h2>

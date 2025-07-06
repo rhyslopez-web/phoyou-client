@@ -16,6 +16,7 @@
   --color-text: #FFFFF7;
   --color-primary: #DA4C28;
   --color-primary-shade: #E65E3C;
+  --color-primary-shade-opacity: rgba(230, 94, 60, 0.50);
   --color-secondary: #FCEF00
 }
 
@@ -30,4 +31,9 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: "Poppins", sans-serif;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 0.7px #FFFFF7;
+  color: transparent;
 }
