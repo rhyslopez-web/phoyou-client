@@ -17,7 +17,9 @@ const Header = () => {
   return (
     <nav className='sticky top-0 right-0 z-10 bg-background backdrop-invert backdrop-saturate-150'>
         <div className='grid grid-cols-2 md:grid-cols-3 lg:px-10 px-3 py-5 relative'>
-            <a>Logo</a>
+            <a>
+                <img src="logo.png" alt="" className='object-fit h-10 lg:h-20' />
+            </a>
 
             <ul className='text-text md:flex gap-5 justify-center hidden'>
                 <li className='hover:text-primary transition ease duration-200'><Link href={'/menu'}>Menu</Link></li>
@@ -26,13 +28,13 @@ const Header = () => {
                 <li className='hover:text-primary transition ease duration-200'><Link href={'/contact'}>Contact</Link></li>
             </ul>
 
-            <div className='md:flex hidden justify-end '>
-                <a href='/' className='bg-primary text-text px-5 py-2 rounded-full hover:bg-orange-500 transition duration-200'>
+            <div className='md:flex hidden justify-end items-center'>
+                <a href='/' className='bg-primary text-text px-7 py-3 rounded-full hover:bg-orange-500 transition duration-200'>
                     Order Now
                 </a>
             </div>
 
-            <div className='flex justify-end md:hidden' onClick={handeIsOpen}>
+            <div className='flex justify-end items-center md:hidden' onClick={handeIsOpen}>
                 <Menu/>
             </div>
         </div>
