@@ -1,7 +1,7 @@
 'use client'
 
 import React, { ReactNode } from 'react'
-import { motion, AnimatePresence, easeIn } from "motion/react"
+import { motion } from "motion/react"
 
 const SecondaryHeading = ({children, className} : {children: ReactNode, className?: string}) => {
   return (

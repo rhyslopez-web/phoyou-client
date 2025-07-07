@@ -1,6 +1,4 @@
 import React from 'react'
-import SecondaryHeading from '../SecondaryHeading/SecondaryHeading'
-import Paragraph from '../Paragraph/Paragraph'
 
 const HomeTrustIcons = () => {
   return (

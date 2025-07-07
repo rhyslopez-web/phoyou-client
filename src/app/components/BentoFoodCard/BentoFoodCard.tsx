@@ -25,7 +25,7 @@ const BentoFoodCard = ({image, title, description} : {image:string, title:string
         <Paragraph>{description}</Paragraph>
       </div>
 
-      <a href='/' className='h-20 w-20 bg-primary absolute bottom-0 right-0 flex justify-center items-center rounded-tl-3xl'>
+      <a href='#' className='h-20 w-20 bg-primary absolute bottom-0 right-0 flex justify-center items-center rounded-tl-3xl'>
         <ArrowRight/>
       </a>
     </motion.article>

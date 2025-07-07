@@ -3,7 +3,7 @@ import React from 'react'
 import Link from 'next/link'
 import { Menu, X } from 'lucide-react'
 import { useState } from 'react'
-import { motion, AnimatePresence, easeIn } from "motion/react"
+import { motion, AnimatePresence} from "motion/react"
 import { RemoveScroll } from 'react-remove-scroll'
 
 const Header = () => {
@@ -29,7 +29,7 @@ const Header = () => {
             </ul>
 
             <div className='md:flex hidden justify-end items-center'>
-                <a href='/' className='bg-primary text-text px-7 py-3 rounded-full hover:bg-orange-500 transition duration-200'>
+                <a href='#' className='bg-primary text-text px-7 py-3 rounded-full hover:bg-orange-500 transition duration-200'>
                     Order Now
                 </a>
             </div>
