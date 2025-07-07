@@ -20,7 +20,7 @@ const HomeAbout = () => {
                 </div>
 
                 <div className='gap-5 grid lg:grid-cols-3'>
-                    <div className="lg:col-span-1 border-5 border-primary-shade rounded-3xl h-full overflow-hidden">
+                    <div className="lg:col-span-1 border-5 border-primary-shade rounded-3xl h-full md:aspect-video lg:aspect-auto overflow-hidden">
                     <img 
                         src="homeabout.jpg" 
                         alt="" 

@@ -1,8 +1,8 @@
 import React, { ReactNode } from 'react'
 
-const Paragraph = ({children} : {children: ReactNode}) => {
+const Paragraph = ({children, className} : {children: ReactNode, className?: string}) => {
   return (
-    <p className='text-lg'>
+    <p className={className + ' text-lg'}>
         {children}
     </p>
   )
