@@ -14,7 +14,7 @@ const HomeReviews = () => {
                 <motion.img 
                 initial={{rotate: 90, x: -200, opacity:0.1}}
                 whileInView={{rotate: 0, x: 0, opacity: 1}}
-                transition={{ease: 'easeInOut', duration: 1.5}}
+                transition={{ease: easeInOut, duration: 1.5}}
                 src="transparentbowl.png" 
                 alt="" 
                 className='object-fit'
