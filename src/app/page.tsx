@@ -5,6 +5,8 @@ import DividerBottom from "./components/DividerBottom/DividerBottom";
 import DividerTop from "./components/DividerTop/DividerTop";
 import HomeTrustIcons from "./components/HomeTrustIcons/HomeTrustIcons";
 import HomeReviews from "./components/HomeReviews/HomeReviews";
+import HomeGallery from "./components/HomeGallery/HomeGallery";
+import HomeFinalCall from "./components/HomeFinalCall/HomeFinalCall";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <HomeMenu/>
       <HomeTrustIcons/>
       <HomeReviews/>
+      <HomeGallery/>
+      <HomeFinalCall/>
     </>
   );
 }
