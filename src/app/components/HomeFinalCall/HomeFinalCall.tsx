@@ -3,8 +3,7 @@ import SecondaryHeading from '../SecondaryHeading/SecondaryHeading'
 import Image from 'next/image'
 import Paragraph from '../Paragraph/Paragraph'
 import Button from '../Button/Button'
-import BentoCard from '../BentoCard/BentoCard'
-import { LocateIcon, MapPin } from 'lucide-react'
+import {MapPin} from 'lucide-react'
 
 const HomeFinalCall = () => {
   return (
