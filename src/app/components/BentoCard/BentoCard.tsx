@@ -6,7 +6,7 @@ const BentoCard = ({children, title, className} : {children: string, title: stri
   return (
     <article className='bg-primary-shade py-10 px-5 text-text rounded-3xl flex flex-col justify-between gap-10'>
 
-        <div className='flex justify-between gap-5 w-full'>
+        <div className='flex gap-5 w-full'>
           <div className='w-10 h-10 bg-primary flex justify-center items-center rounded-xl'>
               <Heart className='text-text'/>
           </div>

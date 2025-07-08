@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "flowbite": "^3.1.2",
+    "google-map-react": "^2.2.5",
     "lucide-react": "^0.525.0",
     "motion": "^12.23.0",
     "next": "15.3.5",
@@ -19,6 +21,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
+    "@types/google-map-react": "^2.1.10",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
