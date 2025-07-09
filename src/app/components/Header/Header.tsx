@@ -22,7 +22,7 @@ const Header = () => {
             </a>
 
             <ul className='text-text md:flex gap-5 justify-center hidden items-center'>
-                <li className='hover:text-primary transition ease duration-200'><Link href={'/menu'}>Menu</Link></li>
+                <li className='hover:text-primary transition ease duration-200'><Link href={'/Menu'}>Menu</Link></li>
                 <li className='hover:text-primary transition ease duration-200'><Link href={'/about'}>About</Link></li>
                 <li className='hover:text-primary transition ease duration-200'><Link href={'/blog'}>Blog</Link></li>
                 <li className='hover:text-primary transition ease duration-200'><Link href={'/contact'}>Contact</Link></li>

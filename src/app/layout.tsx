@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import DividerTop from "./components/DividerTop/DividerTop";
+import ReactQueryProvider from "./context/ReactQueryProvider";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,13 +15,17 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+
   return (
     <html lang="en">
       <body
         className=''
       >
         <Header/>
-        {children}
+        <ReactQueryProvider>
+          {children}
+        </ReactQueryProvider>
         <DividerTop/>
         <Footer/>
       </body>
