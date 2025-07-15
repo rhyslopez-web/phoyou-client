@@ -43,7 +43,7 @@ if (isLoading) return <p>Loading Data...</p>;
 if (error) return <p>Error: {error.message}</p>;
 
   return (
-    <section className='py-10 lg:py-10 px-3 flex flex-col gap-20'>
+    <section className='py-10 lg:py-20 px-3 flex flex-col gap-40'>
       <div className='flex flex-col gap-10 max-w-[1400px] mx-auto '>
         <SecondaryHeading>Appetizer</SecondaryHeading>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
@@ -63,11 +63,65 @@ if (error) return <p>Error: {error.message}</p>;
       </div>
 
       <div className='flex flex-col gap-10 max-w-[1400px] mx-auto '>
+        <SecondaryHeading>Egg Noodle</SecondaryHeading>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
+          {data?.data
+            ?.filter((menu) =>
+              menu.menu_categories?.some((cat) => cat.Category === 'Egg Noodle')
+            )
+            .map((menu, index) => (
+              <MenuContent
+                key={index}
+                title={menu.Title}
+                price={menu.Price}
+                description={menu.Description}
+              />
+            ))}
+        </div>
+      </div>
+
+      <div className='flex flex-col gap-10 max-w-[1400px] mx-auto '>
         <SecondaryHeading>Rice</SecondaryHeading>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
           {data?.data
             ?.filter((menu) =>
               menu.menu_categories?.some((cat) => cat.Category === 'Rice')
+            )
+            .map((menu, index) => (
+              <MenuContent
+                key={index}
+                title={menu.Title}
+                price={menu.Price}
+                description={menu.Description}
+              />
+            ))}
+        </div>
+      </div>
+
+      <div className='flex flex-col gap-10 max-w-[1400px] mx-auto '>
+        <SecondaryHeading>Soup</SecondaryHeading>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
+          {data?.data
+            ?.filter((menu) =>
+              menu.menu_categories?.some((cat) => cat.Category === 'Soup')
+            )
+            .map((menu, index) => (
+              <MenuContent
+                key={index}
+                title={menu.Title}
+                price={menu.Price}
+                description={menu.Description}
+              />
+            ))}
+        </div>
+      </div>
+
+      <div className='flex flex-col gap-10 max-w-[1400px] mx-auto '>
+        <SecondaryHeading>Vermicelli</SecondaryHeading>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
+          {data?.data
+            ?.filter((menu) =>
+              menu.menu_categories?.some((cat) => cat.Category === 'Vermicelli')
             )
             .map((menu, index) => (
               <MenuContent

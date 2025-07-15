@@ -11,7 +11,7 @@ const MenuContent = ({title, price, description} : MenuContentProps) => {
   return (
     <article className='flex justify-between py-5 border-b'>
         <div className='flex flex-col gap-5'>
-            <h2 className='text-xl'>{title}</h2>
+            <h2 className='text-xl font-bold text-primary'>{title}</h2>
             <Paragraph>{description}</Paragraph>
         </div>
 
