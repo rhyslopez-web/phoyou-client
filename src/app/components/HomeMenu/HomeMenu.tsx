@@ -17,9 +17,9 @@ const HomeMenu = () => {
           </div>
 
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
-            <BentoFoodCard title='Food Title' description='this will be the short description' image='fav1.jpg'/>
-            <BentoFoodCard title='Food Title' description='this will be the short description' image='fav2.jpg'/>
-            <BentoFoodCard title='Food Title' description='this will be the short description' image='fav3.jpg'/>
+            <BentoFoodCard title='Lemongrass Tofu' description='this will be the short description' image='fav1.jpg'/>
+            <BentoFoodCard title='Prawns In House Sauce' description='this will be the short description' image='fav2.jpg'/>
+            <BentoFoodCard title='Egg Noodles' description='this will be the short description' image='fav3.jpg'/>
           </div>
 
           <div className='flex justify-center'>

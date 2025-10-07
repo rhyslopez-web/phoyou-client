@@ -12,7 +12,6 @@ export default function Home() {
   return (
     <>
       <Hero/>
-      <DividerTop/>
       <HomeAbout/>
       <DividerBottom/>
       <HomeMenu/>

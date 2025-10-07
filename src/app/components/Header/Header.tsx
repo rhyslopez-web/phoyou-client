@@ -15,7 +15,7 @@ const Header = () => {
     };
 
   return (
-    <nav className='sticky top-0 right-0 z-10'>
+    <nav className='top-0 right-0 z-10 bg-transparent fixed w-full'>
         <div className='grid grid-cols-2 md:grid-cols-3 lg:px-10 px-3 py-5 relative'>
             <a>
                 <img src="logo.png" alt="" className='object-fit h-10 lg:h-20' />
