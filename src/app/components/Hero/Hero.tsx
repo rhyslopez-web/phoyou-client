@@ -2,7 +2,6 @@ import React from 'react'
 import PrimaryHeading from '../PrimaryHeading/PrimaryHeading'
 import Button from '../Button/Button'
 import ButtonSecondary from '../ButtonSecondary/ButtonSecondary'
-import DividerTop from '../DividerTop/DividerTop'
 
 const Hero = () => {
   return (
@@ -37,10 +36,10 @@ const Hero = () => {
           <ButtonSecondary href='/about'>About Us</ButtonSecondary>
         </div>
       </div>
-
+{/* 
       <div className='absolute bottom-0 right-0 left-0'>
         <DividerTop/>
-      </div>
+      </div> */}
     </section>
   )
 }
