@@ -7,6 +7,9 @@ import ReactQueryProvider from "./context/ReactQueryProvider";
 export const metadata: Metadata = {
   title: "PhoYou Hastings",
   description: "Restaurant With Fresh Flavors of​ Vietnam & Thailand",
+  icons: {
+    icon: '/favicon.png',
+  },
 };
 
 export default function RootLayout({
