@@ -102,7 +102,7 @@ export default function AboutPage() {
               </Paragraph>
               <Paragraph>
                 Pho You is a modern take on Vietnamese cuisine — honouring the rich, aromatic
-                traditions of Vietnam while reimagining them for today's diner. From fragrant phở
+                traditions of Vietnam while reimagining them for today&apos;s diner. From fragrant phở
                 and crispy spring rolls to tangy papaya salads, hearty bánh mì, and refreshing shakes,
                 every dish tells a story.
               </Paragraph>
