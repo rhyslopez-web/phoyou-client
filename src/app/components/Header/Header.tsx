@@ -73,19 +73,25 @@ const Header = () => {
             {
                 isOpen && (
                 <RemoveScroll>
-                    <motion.ul 
-                    className='h-screen flex flex-col items-center 
-                    justify-center bg-primary fixed w-full top-0 
+                    <motion.ul
+                    className='h-screen flex flex-col items-center
+                    justify-center bg-primary fixed w-full top-0
                     right-0 gap-5'
                     initial={{x: 500}}
                     animate={{x: 0}}
                     exit={{x:500}}
                     transition={{duration: 0.3, ease: 'easeInOut'}}
                     >
-                        <li className='hover:text-primary transition ease duration-200 text-5xl font-bold uppercase'><Link href={'/menu'}>Menu</Link></li>
-                        <li className='hover:text-primary transition ease duration-200 text-5xl font-bold uppercase'><Link href={'/about'}>About</Link></li>
-                        <li className='hover:text-primary transition ease duration-200 text-5xl font-bold uppercase'><Link href={'/contact'}>Contact</Link></li>
+                        <li className='hover:text-primary transition ease duration-200 text-5xl font-bold uppercase'><Link href={'/Menu'} onClick={handeIsOpen}>Menu</Link></li>
+                        <li className='hover:text-primary transition ease duration-200 text-5xl font-bold uppercase'><Link href={'/about'} onClick={handeIsOpen}>About</Link></li>
+                        <li className='hover:text-primary transition ease duration-200 text-5xl font-bold uppercase'><Link href={'/contact'} onClick={handeIsOpen}>Contact</Link></li>
                         <X onClick={handeIsOpen} className='absolute top-5 right-3'/>
+                        <li className='absolute bottom-8'>
+                            <Link href={'/admin'} onClick={handeIsOpen} className='text-text/40 text-xs uppercase tracking-widest hover:text-text/70 transition-colors duration-200 flex items-center gap-1.5'>
+                                <UserCircle size={13} />
+                                Admin
+                            </Link>
+                        </li>
                     </motion.ul>
                 </RemoveScroll>
                 )
