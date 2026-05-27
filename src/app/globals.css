@@ -37,3 +37,13 @@ body {
   -webkit-text-stroke: 0.7px #FFFFF7;
   color: transparent;
 }
+
+@keyframes scrollUp {
+  from { transform: translateY(0); }
+  to   { transform: translateY(-50%); }
+}
+
+@keyframes scrollLeft {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}

@@ -18,7 +18,7 @@ const HomeGallery = () => {
                     </Paragraph>
                 </div>
                 
-                <Button className='!bg-background'>View Menu</Button>
+                <Button href='/Menu' className='!bg-background'>View Menu</Button>
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-5 md:gap-10">

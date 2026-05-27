@@ -15,7 +15,7 @@ const HomeAbout = () => {
                     </SecondaryHeading>
 
                     <div className='flex md:justify-end md:items-center'>
-                        <Button href='/' className='!bg-background'>Read About Us</Button>
+                        <Button href='/about' className='!bg-background'>Read About Us</Button>
                     </div>
                 </div>
 

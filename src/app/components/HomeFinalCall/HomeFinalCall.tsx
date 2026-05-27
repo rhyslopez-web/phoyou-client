@@ -29,7 +29,7 @@ const HomeFinalCall = () => {
               </div>
 
               <div>
-                <Button>View Our Menu</Button>
+                <Button href='/Menu'>View Our Menu</Button>
               </div>
             </div>
 

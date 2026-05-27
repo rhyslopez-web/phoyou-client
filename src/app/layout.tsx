@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import DividerTop from "./components/DividerTop/DividerTop";
 import ReactQueryProvider from "./context/ReactQueryProvider";
 
 export const metadata: Metadata = {
@@ -26,7 +25,6 @@ export default function RootLayout({
         <ReactQueryProvider>
           {children}
         </ReactQueryProvider>
-        <DividerTop/>
         <Footer/>
       </body>
     </html>
